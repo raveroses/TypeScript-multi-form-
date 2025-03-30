@@ -1,7 +1,82 @@
-.guy {
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
-body {
-  background-color: red;
+.mother-div {
+  display: flex;
+  padding: 10px 20px;
+  gap: 200px;
+}
+.images-div {
+  position: relative;
+}
+.unordered {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.unordered li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.number {
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 9px 14px;
+  cursor: pointer;
+  /* text-align: center; */
+  transition: all 300ms ease-in-out;
+  color: white;
+  font-weight: 500;
+}
+.secondsubDiv {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+.number:hover {
+  background-color: white;
+  color: black;
+}
+.step {
+  color: lightgray;
+  padding-bottom: 5px;
+}
+
+.detail-div {
+  padding-top: 70px;
+}
+.detail-div h3 {
+  font-size: 25px;
+  color: hsl(213, 96%, 18%);
+}
+
+.detail-div p {
+  color: hsl(231, 11%, 63%);
+  font-size: 16px;
+  padding-top: 15px;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+}
+.label p {
+  font-size: 10px;
+  color: hsl(354, 84%, 57%);
 }
